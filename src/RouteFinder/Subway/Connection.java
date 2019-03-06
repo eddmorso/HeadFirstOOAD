@@ -1,0 +1,24 @@
+package RouteFinder.Subway;
+
+public class Connection {
+    String lineName;
+    Station station1, station2;
+
+    public Connection(Station station1, Station station2, String lineName){
+        this.lineName = lineName;
+        this.station1 = station1;
+        this.station2 = station2;
+    }
+
+    public Station getStation1() {
+        return station1;
+    }
+
+    public Station getStation2() {
+        return station2;
+    }
+
+    public String getLineName() {
+        return lineName;
+    }
+}
