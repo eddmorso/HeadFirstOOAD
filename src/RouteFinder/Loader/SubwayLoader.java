@@ -11,7 +11,7 @@ public class SubwayLoader {
     private Subway subway;
 
     public SubwayLoader(Subway subway){
-        subway = new Subway();
+        this.subway = subway;
     }
 
     public Subway loadFromFile(File subwayFile) throws IOException {

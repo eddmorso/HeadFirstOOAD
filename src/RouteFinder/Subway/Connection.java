@@ -1,8 +1,8 @@
 package RouteFinder.Subway;
 
 public class Connection {
-    String lineName;
-    Station station1, station2;
+    private String lineName;
+    private Station station1, station2;
 
     public Connection(Station station1, Station station2, String lineName){
         this.lineName = lineName;
