@@ -1,0 +1,4 @@
+Start of from the station Design Patterns Plaza on the line Liskov Line
+ ---> EJB States ---> Change line to Wirfs-Brock Line
+ ---> Board 'R' Us ---> Web Design Way ---> Change line to Meyer Line
+ ---> SimUDuck Lake
